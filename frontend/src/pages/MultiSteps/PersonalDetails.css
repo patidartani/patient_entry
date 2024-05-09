@@ -1,0 +1,165 @@
+.PersonalDetails{
+          width: 100%;
+          margin-bottom: 2vmax;
+          margin-left: 2vmax;
+}
+.PersonalDetails .Photo{
+          width: 95%;
+         display: flex;
+         padding-right: 1.5vmax;
+         align-items: center;
+         justify-content: space-between;
+}
+.PersonalDetails .Photo .userPhoto{
+        border: 1px solid #61606085;
+        border-radius: 50%;
+        padding: 0.2vmax;
+        cursor: pointer;
+}
+.PersonalDetails .personal{
+          width: 95%;
+          display: flex;
+          flex-direction: row;
+          align-items: flex-start;
+          justify-content: space-between;
+}
+.PersonalDetails .personal form{
+          width: 48%;
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          justify-content: center;
+}
+.PersonalDetails .personal form .personalData{
+          width: 100%;
+          height: auto;
+          display: flex;
+          align-items: flex-start;
+          justify-content: space-between;
+          flex-direction: column;
+          margin-top: 1.3vmax;
+}
+.PersonalDetails .personal form .personalData{
+        font-size: 1.2vmax;
+        font-weight: 700;
+}
+.PersonalDetails .personal form .personalData label{
+          color: rgba(27, 27, 27, 0.669);
+          font-weight: 600;
+          font-size: 1.1vmax;
+}
+.PersonalDetails .personal form .personalData .inpts{
+         display: flex;
+         width: 100%;
+         justify-content: space-evenly;
+         align-items: center;
+         flex-direction: row;
+         position: relative;
+}
+.PersonalDetails .personal form .personalData .inpts i{
+           position: absolute;
+           margin-right: 30vmax;
+           color: rgba(27, 27, 27, 0.475);
+           font-size: 1.5vmax;
+           margin-top: 1vmax;
+}
+.PersonalDetails .personal form .personalData .inpts input{
+          width: 100%;
+          margin-top: 0.8vmax;
+          border: none;
+          background-color: #9e9e9e3b;
+          padding: 0.7vmax 2.5vmax;
+          border-radius: 5px;
+          outline: none;
+}
+
+.PersonalDetails .personal form .personalData .inpts select{
+        width: 100%;
+          margin-top: 0.8vmax;
+          border: none;
+          background-color: #9e9e9e3b;
+          padding: 0.7vmax 0.6vmax;
+          border-radius: 5px;
+          outline: none;
+}
+
+    
+@media (max-width:600px) {
+         
+          .PersonalDetails{
+                    width: 100%;
+          margin-left: 0vmax;
+
+          }
+          .PersonalDetails .personal{
+                    width:100%;
+                    flex-direction: column;
+                    align-items:center;
+                    justify-content: center;
+          }
+          .PersonalDetails .personal form{
+                    width: 98%;
+          }
+          .PersonalDetails .personal form .personalData label{
+                    color: rgba(27, 27, 27, 0.669);
+                    font-weight: 600;
+                    font-size: 2vmax;
+          }
+          .PersonalDetails .personal form .personalData .inpts{
+                   width: auto;
+          }
+          .PersonalDetails .personal form .personalData .inpts i{
+                     margin-right: 35vmax;
+                     font-size: 3vmax;
+                     margin-top: 1vmax;
+          }
+          .PersonalDetails .personal form .personalData .inpts input{
+                    width: auto;
+                    font-size: 2.6vmax;
+                    padding: 2vmax 6vmax;
+          }
+          .PersonalDetails .personal form .personalData button{
+                    padding: 1vmax 3vmax;
+                    margin-top: 2vmax;
+          }
+                
+}
+@media (min-width:600px) and (max-width:950px) {
+          .PersonalDetails{
+                    width: 100%;
+          margin-left: 0vmax;
+
+          }
+          .PersonalDetails .personal{
+                    width:100%;
+                    flex-direction: column;
+                    align-items:center;
+                    justify-content: center;
+          }
+          .PersonalDetails .personal form{
+                    width: 98%;
+          }
+          .PersonalDetails .personal form .personalData label{
+                    color: rgba(27, 27, 27, 0.669);
+                    font-weight: 600;
+                    font-size: 2vmax;
+          }
+          .PersonalDetails .personal form .personalData .inpts{
+                   width: auto;
+          }
+          .PersonalDetails .personal form .personalData .inpts i{
+                     margin-right: 35vmax;
+                     font-size: 3vmax;
+                     margin-top: 1vmax;
+          }
+          .PersonalDetails .personal form .personalData .inpts input{
+                    width: auto;
+                    font-size: 2.6vmax;
+                    padding: 2vmax 6vmax;
+          }
+          .PersonalDetails .personal form .personalData button{
+                    padding: 1vmax 3vmax;
+                    margin-top: 2vmax;
+          }   
+}
+

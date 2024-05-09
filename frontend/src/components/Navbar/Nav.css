@@ -1,0 +1,64 @@
+.Nav{
+          width: 100%;
+          position: fixed;
+          top: 0;
+          z-index: 11111;
+}
+.Nav .navbar{
+          width: 100%;
+          display: flex;
+          /* box-shadow: 2px 2px 5px 2px rgba(244, 201, 201, 0.679); */
+          align-items: center;
+          z-index: 111;
+          justify-content:flex-end;
+}
+.Nav .navbar  .Navlogo{
+          width: 15%;
+          display: flex;
+          background: #000000e5;
+          color: #fff;
+          position: relative;
+          margin-right: 1.7vmax;
+          align-items:center;
+          justify-content: space-evenly;
+}
+.Nav .navbar  .Navlogo img{
+         width: 12%;
+}
+.Nav .navbar  .Navlogo h5{
+         font-weight: 700;
+         font-size: 1.6vmax;
+           margin-top: 0.3vmax;
+}
+
+
+     
+@media (max-width:600px) {
+          .Nav{
+                    width: 100%;
+          }
+          .Nav .navbar  .Navlogo{
+                    width: 50%;
+          }
+          .Nav .navbar  .Navlogo img{
+                   width: 20%;
+          }
+          .Nav .navbar  .Navlogo h5{
+                   font-size: 2.5vmax;
+          }
+                              
+}
+@media (min-width:600px) and (max-width:950px) {
+          .Nav{
+                    width: 100%;
+          }
+          .Nav .navbar  .Navlogo{
+                    width: 50%;
+          }
+          .Nav .navbar  .Navlogo img{
+                   width: 20%;
+          }
+          .Nav .navbar  .Navlogo h5{
+                   font-size: 2.5vmax;
+          }      
+}

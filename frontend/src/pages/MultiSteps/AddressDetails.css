@@ -1,0 +1,118 @@
+.AddressDetail{
+          width: 100%;
+          margin-bottom: 2vmax;
+          margin-left: 2vmax;
+}
+
+.AddressDetail .address{
+          width: 95%;
+          display: flex;
+          flex-direction: row;
+          align-items: flex-start;
+          justify-content: space-between;
+}
+.AddressDetail .address form{
+          width: 48%;
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          justify-content: center;
+}
+.AddressDetail .address form .addressData{
+          width: 100%;
+          height: auto;
+          display: flex;
+          align-items: flex-start;
+          justify-content: space-between;
+          flex-direction: column;
+          margin-top: 1.3vmax;
+}
+.AddressDetail .address form .addressData label{
+          color: rgba(27, 27, 27, 0.669);
+          font-weight: 600;
+          font-size: 1.1vmax;
+}
+.AddressDetail .address form .addressData .inpts{
+         display: flex;
+         width: 100%;
+         justify-content: space-evenly;
+         align-items: center;
+         flex-direction: row;
+         position: relative;
+}
+
+.AddressDetail .address form .addressData .inpts input{
+          width: 100%;
+          margin-top: 0.8vmax;
+          border: none;
+          background-color: #9e9e9e3b;
+          padding: 0.7vmax 1vmax;
+          border-radius: 5px;
+          outline: none;
+}
+
+
+    
+@media (max-width:600px) {
+         
+          .AddressDetail{
+                    width: 100%;
+          margin-left: 0vmax;
+
+          }
+          .AddressDetail .address{
+                    width:100%;
+                    flex-direction: column;
+                    align-items:center;
+                    justify-content: center;
+          }
+          .AddressDetail .address form{
+                    width: 98%;
+          }
+          .AddressDetail .address form .addressData label{
+                    color: rgba(27, 27, 27, 0.669);
+                    font-weight: 600;
+                    font-size: 2vmax;
+          }
+          .AddressDetail .address form .addressData .inpts{
+                   width: auto;
+          }
+          .AddressDetail .address form .addressData .inpts input{
+                    width: auto;
+                    font-size: 2.6vmax;
+                    padding: 2vmax 6vmax;
+          }
+         
+}
+@media (min-width:600px) and (max-width:950px) {
+          .AddressDetail{
+                    width: 100%;
+          margin-left: 0vmax;
+
+          }
+          .AddressDetail .address{
+                    width:100%;
+                    flex-direction: column;
+                    align-items:center;
+                    justify-content: center;
+          }
+          .AddressDetail .address form{
+                    width: 98%;
+          }
+          .AddressDetail .address form .addressData label{
+                    color: rgba(27, 27, 27, 0.669);
+                    font-weight: 600;
+                    font-size: 2vmax;
+          }
+          .AddressDetail .address form .addressData .inpts{
+                   width: auto;
+          }
+          .AddressDetail .address form .addressData .inpts input{
+                    width: auto;
+                    font-size: 2.6vmax;
+                    padding: 2vmax 6vmax;
+          }
+       
+}
+
+

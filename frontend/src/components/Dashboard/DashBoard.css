@@ -1,0 +1,446 @@
+.DashBoardMain {
+    width: 15%;
+    height: 100%;
+    margin-top: 0vmax;
+    position: fixed;
+    background-attachment: fixed;
+    top: 0;
+    z-index: 11111;
+
+}
+.DashBoardMain .dashboard {
+    width: 100%;
+    height: 730px;
+    /* position: relative;
+    left: 0%; */
+    color: #fff;
+    background: #000000e5;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    transition: 0.5s;
+}
+.DashBoardMain .dashboard .DashContent {
+    width: 100%;
+    height: 730px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    overflow-y: hidden;
+}
+.DashBoardMain .dashboard .DashContent .Dtop {
+    width: 100%;
+    height: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.DashBoardMain .dashboard .DashContent .Dtop .menubar {
+    width: 100%;
+    height: 85%;
+    color: #fff;
+    padding: 0.8vmax;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.DashBoardMain .dashboard .DashContent .Dtop .menubar h5 {
+    font-weight: 700;
+    font-size: 1.8vmax;
+}
+.DashBoardMain .dashboard .DashContent .Dtop .menubar i {
+    font-weight: 500;
+    font-size: 1.5vmax;
+    cursor: pointer;
+    /* display: none; */
+}
+.DashBoardMain .dashboard .DashContent .Dmid {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.DashBoardMain .dashboard .DashContent .DashboardList {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.DashBoardMain .dashboard .DashContent .DashboardList .heading {
+    width: 100%;
+    height: 5%;
+    margin-top: 1vmax;
+}
+.DashBoardMain .dashboard .DashContent .DashboardList .heading p {
+    color: #ffffffaa;
+}
+.DashBoardMain .dashboard .DashContent .DashboardList .DashData {
+    width: 100%;
+    height: 5%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 0.7vmax;
+}
+.DashBoardMain .dashboard .DashContent .DashboardList .DashData i {
+    font-size: 1.4vmax;
+    color: #fff;
+}
+.DashBoardMain .dashboard .DashContent .DashboardList .DashData h6 {
+    margin-left: 1vmax;
+    margin-top: 0.3vmax;
+    color: #fff;
+}
+.DashBoardMain .dashboard .DashContent .Dbtm {
+    width: 100%;
+    height: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid #91919192;
+    position: relative;
+}
+.DashBoardMain .dashboard .DashContent .Dbtm .logout {
+    width: 100%;
+    height: 90%;
+    color: #fff;
+    padding: 0.8vmax;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.DashBoardMain .dashboard .DashContent .Dbtm .logout h5 {
+    font-weight: 500;
+    font-size: 1.3vmax;
+    cursor: pointer;
+}
+.DashBoardMain .dashboard .DashContent .Dbtm .logout i {
+    font-weight: 300;
+    font-size: 1.3vmax;
+    cursor: pointer;
+    margin-left: 0.3vmax;
+}
+/* .DashBoardMain.menuOpen .dashboard {
+    left: -100%;
+    margin-left: 15%;
+    transition: left 0.5s ease;
+}
+ .rotate {
+    transform: rotate(180deg);
+}  */
+
+
+
+@media (max-width:600px) {
+    .DashBoardMain {
+        width: 100%;
+        height: 100%;
+    }
+    .DashBoardMain .dashboard {
+        width: 100%;
+        height: 740px;
+        position: relative;
+        left: 0%;
+    }
+    .DashBoardMain .dashboard .DashContent .Dtop {
+        width: 100%;
+        height: 10%;
+    }
+    .DashBoardMain .dashboard .DashContent .Dtop .menubar {
+        width: 100%;
+        height: 90%;
+    }
+    .DashBoardMain .dashboard .DashContent .Dtop .menubar h5 {
+        font-size: 3.5vmax;
+    }
+    .DashBoardMain .dashboard .DashContent .Dtop .menubar i {
+        font-size: 3vmax;
+    }
+    /* ---- */
+    
+    .DashBoardMain .dashboard .DashContent .DashboardList {
+        width: 90%;
+        height: 100%;
+    }
+    .DashBoardMain .dashboard .DashContent .DashboardList .heading {
+        width: 100%;
+        height: 5%;
+    }
+    .DashBoardMain .dashboard .DashContent .DashboardList .heading p {
+        font-size: 2.6vmax;
+    }
+    .DashBoardMain .dashboard .DashContent .DashboardList .DashData {
+        width: 100%;
+        height: 5%;
+        margin-top: 2vmax;
+    }
+    .DashBoardMain .dashboard .DashContent .DashboardList .DashData i {
+        font-size: 2.8vmax;
+    }
+    .DashBoardMain .dashboard .DashContent .DashboardList .DashData h6 {
+        margin-left: 2vmax;
+        margin-top: 0.5vmax;
+        font-size: 2.5vmax;
+    }
+    .DashBoardMain .dashboard .DashContent .Dbtm {
+        width: 100%;
+        height: 10%;
+    }
+    .DashBoardMain .dashboard .DashContent .Dbtm .logout {
+        width: 95%;
+        height: 90%;
+    }
+    .DashBoardMain .dashboard .DashContent .Dbtm .logout h5 {
+        font-size: 3vmax;
+        cursor: pointer;
+    }
+    .DashBoardMain .dashboard .DashContent .Dbtm .logout i {
+        font-size: 3vmax;
+        margin-right: 1vmax;
+    }
+    .DashBoardMain.menuOpen .dashboard {
+        left: -100%;
+        margin-left: 10%;
+        transition: left 0.5s ease;
+    }
+     .rotate {
+        transform: rotate(180deg);
+    } 
+    
+
+}
+@media (min-width:600px) and (max-width:1100px) {
+    .DashBoardMain {
+        width: 100%;
+        height: 100%;
+    }
+    .DashBoardMain .dashboard {
+        width: 100%;
+        height: 740px;
+        position: relative;
+        left: 0%;
+    }
+    .DashBoardMain .dashboard .DashContent .Dtop {
+        width: 100%;
+        height: 10%;
+    }
+    .DashBoardMain .dashboard .DashContent .Dtop .menubar {
+        width: 100%;
+        height: 90%;
+    }
+    .DashBoardMain .dashboard .DashContent .Dtop .menubar h5 {
+        font-size: 3.5vmax;
+    }
+    .DashBoardMain .dashboard .DashContent .Dtop .menubar i {
+        font-size: 3vmax;
+    }
+    /* ---- */
+    
+    .DashBoardMain .dashboard .DashContent .DashboardList {
+        width: 90%;
+        height: 100%;
+    }
+    .DashBoardMain .dashboard .DashContent .DashboardList .heading {
+        width: 100%;
+        height: 5%;
+    }
+    .DashBoardMain .dashboard .DashContent .DashboardList .heading p {
+        font-size: 2.6vmax;
+    }
+    .DashBoardMain .dashboard .DashContent .DashboardList .DashData {
+        width: 100%;
+        height: 5%;
+        margin-top: 2vmax;
+    }
+    .DashBoardMain .dashboard .DashContent .DashboardList .DashData i {
+        font-size: 2.8vmax;
+    }
+    .DashBoardMain .dashboard .DashContent .DashboardList .DashData h6 {
+        margin-left: 2vmax;
+        margin-top: 0.5vmax;
+        font-size: 2.5vmax;
+    }
+    .DashBoardMain .dashboard .DashContent .Dbtm {
+        width: 100%;
+        height: 10%;
+    }
+    .DashBoardMain .dashboard .DashContent .Dbtm .logout {
+        width: 95%;
+        height: 90%;
+    }
+    .DashBoardMain .dashboard .DashContent .Dbtm .logout h5 {
+        font-size: 3vmax;
+        cursor: pointer;
+    }
+    .DashBoardMain .dashboard .DashContent .Dbtm .logout i {
+        font-size: 3vmax;
+        margin-right: 1vmax;
+    }
+    .DashBoardMain.menuOpen .dashboard {
+        left: -100%;
+        margin-left: 10%;
+        transition: left 0.5s ease;
+    }
+     .rotate {
+        transform: rotate(180deg);
+    } 
+    
+      
+} 
+
+
+
+
+
+
+
+
+
+/* -------------------------------------- */
+
+/* .DashBoardMain {
+    width: 15%;
+    margin-top: 0vmax;
+    position: absolute;
+    top: 0;
+    z-index: 11111;
+}
+
+.DashBoardMain .dashboard {
+    width: 100%;
+    position: relative;
+    left: -0%;
+    transition: 0.5s;
+    display: flex;
+    background: #000000e5;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+}
+
+.DashBoardMain .dashboard .dashContent {
+    width: 100%;
+    position: relative;
+    display: flex;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.DashBoardMain .dashboard .dashContent .menubar {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1vmax;
+    color: #fff;
+    padding: 0.8vmax;
+}
+
+.DashBoardMain .dashboard .dashContent .menubar h5 {
+    font-weight: 700;
+    font-size: 1.5vmax;
+}
+
+.DashBoardMain .dashboard .dashContent .menubar i {
+    font-weight: 500;
+    font-size: 1.5vmax;
+    cursor: pointer;
+}
+
+.DashBoardMain .dashboard .dashContent .DashboardList {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.DashBoardMain .dashboard .dashContent .DashboardList .heading {
+    width: 95%;
+}
+
+.DashBoardMain .dashboard .dashContent .DashboardList .heading p {
+    color: #ffffffaa;
+}
+
+.DashBoardMain .dashboard .dashContent .DashboardList .DashData {
+    width: 95%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 0.2vmax;
+    margin-bottom: 1vmax;
+    padding: 0.3vmax;
+}
+
+.DashBoardMain .dashboard .dashContent .DashboardList .DashData i {
+    font-size: 1.4vmax;
+    color: #fff;
+}
+
+.DashBoardMain .dashboard .dashContent .DashboardList .DashData h6 {
+    margin-left: 1vmax;
+    margin-top: 0.3vmax;
+    color: #fff;
+}
+
+.DashBoardMain.menuOpen .dashboard {
+    left: -100%;
+    margin-left: 15%;
+    transition: left 0.5s ease;
+}
+
+.rotate {
+    transform: rotate(180deg);
+}
+
+@media (max-width:600px) {
+    .DashBoardMain {
+              width: 100%;                
+          }                      
+          .DashBoardMain .dashboard .dashContent .menubar h5 {
+              font-size: 4vmax;
+          }
+          
+          .DashBoardMain .dashboard .dashContent .menubar i {
+              font-size: 3vmax;
+          }  
+          .DashBoardMain .dashboard .dashContent .DashboardList .DashData i {
+              font-size: 3vmax;
+          }
+          .DashBoardMain.menuOpen .dashboard {
+              left: -105%;
+              margin-left: 15%;
+              transition: left 0.5s ease;
+          }
+
+}
+@media (min-width:600px) and (max-width:950px) {
+    .DashBoardMain {
+              width: 100%;                
+          }                      
+          .DashBoardMain .dashboard .dashContent .menubar h5 {
+              font-size: 4vmax;
+          }
+          
+          .DashBoardMain .dashboard .dashContent .menubar i {
+              font-size: 3vmax;
+          }  
+          .DashBoardMain .dashboard .dashContent .DashboardList .DashData i {
+              font-size: 3vmax;
+          }
+          .DashBoardMain.menuOpen .dashboard {
+              left: -105%;
+              margin-left: 15%;
+              transition: left 0.5s ease;
+          }
+} */

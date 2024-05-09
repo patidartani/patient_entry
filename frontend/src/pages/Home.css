@@ -1,0 +1,84 @@
+.HomepageMain{
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          background: #b3e7ff3b; 
+}
+.HomepageMain .homepage{
+          width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+}
+.HomepageMain .homepage .HomeSteps{
+          width: 90%;
+          margin-top: 4vmax;
+          display: flex;
+          margin-left: 3vmax;
+          flex-direction: column;
+          align-items:center;
+          justify-content: space-evenly;
+}
+.HomepageMain .homepage .HomeSteps h4{
+         margin-top: 1vmax;
+         width: 70%;
+}
+.HomepageMain .homepage .multistep-container{
+          width: 80%;
+          display: flex;
+          margin-bottom: 3vmax;
+          flex-direction: column;
+          margin-left: 3vmax;
+          /* flex-wrap: nowrap;
+          overflow: auto;       */
+}
+
+
+      
+@media (max-width:600px) {
+          .HomepageMain{
+                    width: 100%;  
+          }
+          .HomepageMain .homepage{
+                    width: 100%;
+          margin-top: 6vmax;
+
+          }
+          .HomepageMain .homepage .HomeSteps{
+                    width: 100%;
+          }
+          .HomepageMain .homepage .multistep-container{
+                    width: 85%;
+          }
+        
+ .HomepageMain .homepage .multistep-containe::-webkit-scrollbar {
+          width: 15px;
+          height: 7vmax;
+}
+
+ .HomepageMain .homepage .multistep-containe::-webkit-scrollbar-track {
+          background: #e4e4e4;
+}
+
+ .HomepageMain .homepage .multistep-containe::-webkit-scrollbar-thumb {
+          background: #171717d2;
+          border-radius: 15px;
+}
+        
+}
+@media (min-width:600px) and (max-width:950px) {
+          .HomepageMain{
+                    width: 100%;  
+          }
+          .HomepageMain .homepage{
+                    width: 100%;
+          margin-top: 2vmax;
+
+          }
+          .HomepageMain .homepage .HomeSteps{
+                    width: 100%;
+          }
+          .HomepageMain .homepage .multistep-container{
+                    width: 85%;
+          }    
+}
